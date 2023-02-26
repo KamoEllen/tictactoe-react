@@ -1,0 +1,35 @@
+.info {
+	width: 50vw;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #d7f5ff;
+	background-color: #2d2d2d;
+	padding: 2rem;
+	border-radius: 10px;
+	box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+}
+
+.player {
+	border: 5px solid #ffa1b5;
+	border-radius: 50%;
+	padding: 1.5rem;
+	display: flex;
+	font-size: 3rem;
+	justify-content: center;
+	align-items: center;
+	width: 10vw;
+	height: 10vw;
+	background-color: #ffef96;
+	color: #2d2d2d;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+	transition: all 0.3s ease-in-out;
+}
+
+.player:hover {
+	transform: scale(1.1);
+	background-color: #f6546a;
+	color: #d7f5ff;
+	border-color: #d7f5ff;
+}
+
